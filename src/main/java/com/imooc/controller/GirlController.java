@@ -108,4 +108,8 @@ public class GirlController {
     public void getAge(@PathVariable("id") Integer id) throws Exception{
         girlService.getAge(id);
     }
+
+    public static void main(String[] args) {
+        System.out.println(111);
+    }
 }
